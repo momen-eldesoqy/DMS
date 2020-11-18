@@ -1,0 +1,53 @@
+*
+{
+    box-sizing: border-box;
+}
+html
+{
+    background-image: url("../images/mm.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.container
+{
+    width: 1200px;
+    margin: auto;
+    margin-top: 70px;
+}
+.clock
+{
+    color: #cbaf65;
+    font-size: 50px;
+    font-family: fantasy;
+    float: right;
+    margin-top: -65px;
+}
+img
+{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.container input
+{
+    width: 500px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background: none;
+    color: aliceblue;
+}
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.container input[type="submit"] 
+{
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.container input[type="submit"]:hover
+{
+    background-color: #cbaf65;
+
+}
